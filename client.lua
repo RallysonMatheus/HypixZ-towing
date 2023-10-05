@@ -1,4 +1,4 @@
-RegisterCommand('ola mundo', function ()
+RegisterCommand('deployram', function ()
     local player = PlayerPedId()
     local playerCoords = GetEntityCoords(player)
     local radius = 5.0
