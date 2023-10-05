@@ -1,4 +1,4 @@
-RegisterCommand('tes', function ()
+RegisterCommand('deployramp', function ()
     local player = PlayerPedId()
     local playerCoords = GetEntityCoords(player)
     local radius = 5.0
